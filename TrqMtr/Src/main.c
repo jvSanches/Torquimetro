@@ -113,7 +113,7 @@ int main(void)
     
     //Heartbeat led / Blink test program
     HAL_GPIO_TogglePin(BOARD_LED_GPIO_Port, BOARD_LED_Pin);
-    HAL_Delay(100);
+    HAL_Delay(3000);
   }
   /* USER CODE END 3 */
 }

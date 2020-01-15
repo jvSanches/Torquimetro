@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
   31:Src/main.c    **** 
   32:Src/main.c    **** /* USER CODE END PTD */
   33:Src/main.c    **** 
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 2
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 2
 
 
   34:Src/main.c    **** /* Private define ------------------------------------------------------------*/
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
   88:Src/main.c    **** 
   89:Src/main.c    ****   /* Configure the system clock */
   90:Src/main.c    ****   SystemClock_Config();
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 3
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 3
 
 
   91:Src/main.c    **** 
@@ -146,7 +146,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  113:Src/main.c    ****     
  114:Src/main.c    ****     //Heartbeat led / Blink test program
  115:Src/main.c    ****     HAL_GPIO_TogglePin(BOARD_LED_GPIO_Port, BOARD_LED_Pin);
- 116:Src/main.c    ****     HAL_Delay(100);
+ 116:Src/main.c    ****     HAL_Delay(3000);
  117:Src/main.c    ****   }
  118:Src/main.c    ****   /* USER CODE END 3 */
  119:Src/main.c    **** }
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  145:Src/main.c    ****                               |RCC_CLOCKTYPE_PCLK1;
  146:Src/main.c    ****   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
  147:Src/main.c    ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 4
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 4
 
 
  148:Src/main.c    ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  202:Src/main.c    ****   /* USER CODE BEGIN ADC_Init 2 */
  203:Src/main.c    **** 
  204:Src/main.c    ****   /* USER CODE END ADC_Init 2 */
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 5
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 5
 
 
  205:Src/main.c    **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  259:Src/main.c    ****   /* USER CODE END USART2_Init 1 */
  260:Src/main.c    ****   huart2.Instance = USART2;
  261:Src/main.c    ****   huart2.Init.BaudRate = 38400;
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 6
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 6
 
 
  262:Src/main.c    ****   huart2.Init.WordLength = UART_WORDLENGTH_8B;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
   51 0010 5969     		ldr	r1, [r3, #20]
   52 0012 8020     		movs	r0, #128
   53 0014 C002     		lsls	r0, r0, #11
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 7
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 7
 
 
   54 0016 0143     		orrs	r1, r0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
   99 004a 0594     		str	r4, [sp, #20]
  300:Src/main.c    ****   HAL_GPIO_Init(ENCODER_INPUT_GPIO_Port, &GPIO_InitStruct);
  100              		.loc 1 300 3 is_stmt 1 view .LVU22
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 8
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 8
 
 
  101 004c 03A9     		add	r1, sp, #12
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  147              		@ frame_needed = 0, uses_anonymous_args = 0
  148 0000 30B5     		push	{r4, r5, lr}
  149              	.LCFI2:
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 9
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 9
 
 
  150              		.cfi_def_cfa_offset 12
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  188              		.loc 1 181 30 is_stmt 0 view .LVU49
  189 0024 2576     		strb	r5, [r4, #24]
  182:Src/main.c    ****   hadc.Init.ContinuousConvMode = DISABLE;
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 10
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 10
 
 
  190              		.loc 1 182 3 is_stmt 1 view .LVU50
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  225 0044 8023     		movs	r3, #128
  226 0046 5B01     		lsls	r3, r3, #5
  227 0048 0293     		str	r3, [sp, #8]
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 11
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 11
 
 
  197:Src/main.c    ****   if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  224:Src/main.c    ****   hcan.Init.Mode = CAN_MODE_NORMAL;
  275              		.loc 1 224 23 is_stmt 0 view .LVU79
  276 0008 1023     		movs	r3, #16
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 12
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 12
 
 
  277 000a 4360     		str	r3, [r0, #4]
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  235:Src/main.c    ****   {
  310              		.loc 1 235 7 is_stmt 0 view .LVU101
  311 0022 FFF7FEFF 		bl	HAL_CAN_Init
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 13
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 13
 
 
  312              	.LVL7:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  358 0012 C360     		str	r3, [r0, #12]
  264:Src/main.c    ****   huart2.Init.Mode = UART_MODE_TX_RX;
  359              		.loc 1 264 3 is_stmt 1 view .LVU112
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 14
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 14
 
 
  264:Src/main.c    ****   huart2.Init.Mode = UART_MODE_TX_RX;
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  402              	.LFB41:
  126:Src/main.c    ****   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
  403              		.loc 1 126 1 is_stmt 1 view -0
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 15
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 15
 
 
  404              		.cfi_startproc
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  136:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
  445              		.loc 1 136 43 is_stmt 0 view .LVU141
  446 0026 0B94     		str	r4, [sp, #44]
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 16
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 16
 
 
  137:Src/main.c    ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  487              		.fpu softvfp
  489              	main:
  490              	.LFB40:
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 17
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 17
 
 
   74:Src/main.c    ****   /* USER CODE BEGIN 1 */
@@ -999,7 +999,7 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  519              	.L15:
  107:Src/main.c    ****   {
  520              		.loc 1 107 3 discriminator 1 view .LVU164
- 115:Src/main.c    ****     HAL_Delay(100);
+ 115:Src/main.c    ****     HAL_Delay(3000);
  521              		.loc 1 115 5 discriminator 1 view .LVU165
  522 001a 9020     		movs	r0, #144
  523 001c 8021     		movs	r1, #128
@@ -1008,26 +1008,30 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  526              	.LVL19:
  116:Src/main.c    ****   }
  527              		.loc 1 116 5 discriminator 1 view .LVU166
- 528 0024 6420     		movs	r0, #100
+ 528 0024 0148     		ldr	r0, .L16
  529 0026 FFF7FEFF 		bl	HAL_Delay
  530              	.LVL20:
  107:Src/main.c    ****   {
  531              		.loc 1 107 9 discriminator 1 view .LVU167
  532 002a F6E7     		b	.L15
- 533              		.cfi_endproc
- 534              	.LFE40:
- 536              		.section	.text.Error_Handler,"ax",%progbits
- 537              		.align	1
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 18
+ 533              	.L17:
+ 534              		.align	2
+ 535              	.L16:
+ 536 002c B80B0000 		.word	3000
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 18
 
 
- 538              		.global	Error_Handler
- 539              		.syntax unified
- 540              		.code	16
- 541              		.thumb_func
- 542              		.fpu softvfp
- 544              	Error_Handler:
- 545              	.LFB46:
+ 537              		.cfi_endproc
+ 538              	.LFE40:
+ 540              		.section	.text.Error_Handler,"ax",%progbits
+ 541              		.align	1
+ 542              		.global	Error_Handler
+ 543              		.syntax unified
+ 544              		.code	16
+ 545              		.thumb_func
+ 546              		.fpu softvfp
+ 548              	Error_Handler:
+ 549              	.LFB46:
  310:Src/main.c    **** 
  311:Src/main.c    **** /* USER CODE BEGIN 4 */
  312:Src/main.c    **** 
@@ -1039,66 +1043,67 @@ ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 1
  318:Src/main.c    ****   */
  319:Src/main.c    **** void Error_Handler(void)
  320:Src/main.c    **** {
- 546              		.loc 1 320 1 view -0
- 547              		.cfi_startproc
- 548              		@ args = 0, pretend = 0, frame = 0
- 549              		@ frame_needed = 0, uses_anonymous_args = 0
- 550              		@ link register save eliminated.
+ 550              		.loc 1 320 1 view -0
+ 551              		.cfi_startproc
+ 552              		@ args = 0, pretend = 0, frame = 0
+ 553              		@ frame_needed = 0, uses_anonymous_args = 0
+ 554              		@ link register save eliminated.
  321:Src/main.c    ****   /* USER CODE BEGIN Error_Handler_Debug */
  322:Src/main.c    ****   /* User can add his own implementation to report the HAL error return state */
  323:Src/main.c    **** 
  324:Src/main.c    ****   /* USER CODE END Error_Handler_Debug */
  325:Src/main.c    **** }
- 551              		.loc 1 325 1 view .LVU169
- 552              		@ sp needed
- 553 0000 7047     		bx	lr
- 554              		.cfi_endproc
- 555              	.LFE46:
- 557              		.comm	huart2,128,4
- 558              		.comm	hcan,40,4
- 559              		.comm	hadc,64,4
- 560              		.text
- 561              	.Letext0:
- 562              		.file 2 "d:\\gnu tools arm embedded\\9 2019-q4-major\\arm-none-eabi\\include\\machine\\_default_ty
- 563              		.file 3 "d:\\gnu tools arm embedded\\9 2019-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
- 564              		.file 4 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h"
- 565              		.file 5 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f042x6.h"
- 566              		.file 6 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h"
- 567              		.file 7 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h"
- 568              		.file 8 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h"
- 569              		.file 9 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h"
- 570              		.file 10 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h"
- 571              		.file 11 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h"
- 572              		.file 12 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_can.h"
- 573              		.file 13 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h"
- 574              		.file 14 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h"
- 575              		.file 15 "<built-in>"
-ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s 			page 19
+ 555              		.loc 1 325 1 view .LVU169
+ 556              		@ sp needed
+ 557 0000 7047     		bx	lr
+ 558              		.cfi_endproc
+ 559              	.LFE46:
+ 561              		.comm	huart2,128,4
+ 562              		.comm	hcan,40,4
+ 563              		.comm	hadc,64,4
+ 564              		.text
+ 565              	.Letext0:
+ 566              		.file 2 "d:\\gnu tools arm embedded\\9 2019-q4-major\\arm-none-eabi\\include\\machine\\_default_ty
+ 567              		.file 3 "d:\\gnu tools arm embedded\\9 2019-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 568              		.file 4 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h"
+ 569              		.file 5 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f042x6.h"
+ 570              		.file 6 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h"
+ 571              		.file 7 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h"
+ 572              		.file 8 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h"
+ 573              		.file 9 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h"
+ 574              		.file 10 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h"
+ 575              		.file 11 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h"
+ 576              		.file 12 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_can.h"
+ 577              		.file 13 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h"
+ 578              		.file 14 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h"
+ 579              		.file 15 "<built-in>"
+ARM GAS  C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s 			page 19
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:16     .text.MX_GPIO_Init:00000000 $t
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:23     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:131    .text.MX_GPIO_Init:0000006c $d
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:136    .text.MX_ADC_Init:00000000 $t
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:142    .text.MX_ADC_Init:00000000 MX_ADC_Init
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:246    .text.MX_ADC_Init:0000005c $d
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:16     .text.MX_GPIO_Init:00000000 $t
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:23     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:131    .text.MX_GPIO_Init:0000006c $d
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:136    .text.MX_ADC_Init:00000000 $t
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:142    .text.MX_ADC_Init:00000000 MX_ADC_Init
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:246    .text.MX_ADC_Init:0000005c $d
                             *COM*:00000040 hadc
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:252    .text.MX_CAN_Init:00000000 $t
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:258    .text.MX_CAN_Init:00000000 MX_CAN_Init
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:319    .text.MX_CAN_Init:00000028 $d
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:252    .text.MX_CAN_Init:00000000 $t
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:258    .text.MX_CAN_Init:00000000 MX_CAN_Init
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:319    .text.MX_CAN_Init:00000028 $d
                             *COM*:00000028 hcan
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:325    .text.MX_USART2_UART_Init:00000000 $t
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:331    .text.MX_USART2_UART_Init:00000000 MX_USART2_UART_Init
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:388    .text.MX_USART2_UART_Init:00000028 $d
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:325    .text.MX_USART2_UART_Init:00000000 $t
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:331    .text.MX_USART2_UART_Init:00000000 MX_USART2_UART_Init
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:388    .text.MX_USART2_UART_Init:00000028 $d
                             *COM*:00000080 huart2
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:394    .text.SystemClock_Config:00000000 $t
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:401    .text.SystemClock_Config:00000000 SystemClock_Config
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:482    .text.main:00000000 $t
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:489    .text.main:00000000 main
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:537    .text.Error_Handler:00000000 $t
-C:\Users\joaov\AppData\Local\Temp\ccCHeSTC.s:544    .text.Error_Handler:00000000 Error_Handler
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:394    .text.SystemClock_Config:00000000 $t
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:401    .text.SystemClock_Config:00000000 SystemClock_Config
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:482    .text.main:00000000 $t
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:489    .text.main:00000000 main
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:536    .text.main:0000002c $d
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:541    .text.Error_Handler:00000000 $t
+C:\Users\joaov\AppData\Local\Temp\ccWPbwZi.s:548    .text.Error_Handler:00000000 Error_Handler
 
 UNDEFINED SYMBOLS
 memset
